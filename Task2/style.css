@@ -1,0 +1,44 @@
+main{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+#display-quote{
+    background-color: #37AEE2;
+    padding: 10px 25px;
+    border-radius: 6px;
+    color: #fff;
+    border-style: unset;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid #37AEE2;
+}
+#display-quote:hover{
+    cursor: pointer;
+    border: 1px solid #37AEE2;
+    color: #37AEE2;
+    background-color: #fff;
+    transition: .3s all ease-in-out;
+}
+
+.quote-card{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: fit-content;
+    padding: 25px;
+    border-radius: 12px;
+    margin: 20px auto;
+    width: 55%;
+}
+.quote-card p{
+    font-weight :500;
+    color: #4d4747;
+}
+.author-name{
+    color: #797979;
+    font-size: 14px;
+}
+.author-name::before{
+    content: '— ';
+    display: inline;
+    width: 20px;
+}
+
