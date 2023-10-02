@@ -25,8 +25,8 @@ const fetchQuotes = async (totalQuotes) => {
   return [];
 };
 
-displayQuoteBtn.addEventListener("click", () => {
-  const quotes = fetchQuotes(3);
+displayQuoteBtn.addEventListener("click", async () => {
+  const quotes = await fetchQuotes(3);
   // reset container before adding quotes
   quotesContainer.innerHTML = "";
   quotes.forEach(addQuoteToContainer);
